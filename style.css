@@ -1,0 +1,42 @@
+body{
+    background-color: lightblue;
+}
+img{
+    color: rgb(255, 51, 0);
+    border: solid;
+}
+a{
+    text-align: center;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 75px;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+        border-radius: 20px;
+    background-color: white;
+
+    width: 400px;
+    font-family: fantasy;
+}
+img{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:lightcoral;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:black;
+}
+.bodying{
+    background-color: chartreuse;
+}
